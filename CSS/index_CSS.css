@@ -1,0 +1,191 @@
+/**** GENERAL PAGE CSS ****/
+* {
+	font-family: "Jura", sans-serif;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	box-sizing: border-box;
+	/*border: 1px solid red;*/
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	
+	background-color: #11091E;
+	color: #EEE5E6;
+	height: auto;
+	width: 100%
+}
+li {
+	list-style: none;
+	display: inline;
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: #B555D0;
+	font-weight: bold;
+}
+
+a:hover, a:active {
+	color: #5F2FF3;
+}
+
+/**** HEADING CSS ****/
+.heading {
+	background-image: url("Images/GIF/headerbanner.gif");
+	background-repeat: no-repeat;
+	background-position: center right;
+	background-size: cover;
+	padding: 10vh 0px;
+}
+
+.heading h1{
+	color: #11091E;
+	font-weight: bold;
+	text-align: center;
+	font-size: 3em;
+	text-shadow: -1px 0px 1vh white, 0px -1px 1vh white, 1px 0px 1vh white, 0px 1px 1vh white;
+}
+
+/**** PAGE CONTENT CSS GENERAL****/
+.Home-Title {
+	padding: 1.1vh 0px;
+	background: linear-gradient(#EEE5E6,#777);
+	background-color: #EEE5E6;
+}
+
+.About-Us h2, .Unity h2,.Java h2, .Scala h2{
+	border: 1px solid #CAC3C4;
+	border-radius: 50px;
+	color: #11091E;
+	display: inline;
+	padding: 5px 5px;
+}
+
+.About-Us-Select h2, .Unity-Select h2,.Java-Select h2, .Scala-Select h2 {
+	background: linear-gradient(#444,#EEE5E6);
+	border-radius: 50px;
+	color: #11091E;
+	display: inline;
+	padding: 5px 5px;
+}
+
+.Home-Title h2:hover {
+	background: linear-gradient(#777,#EEE5E6);
+	border-radius: 50px;
+}
+
+/******** HOME CONTENT **********/
+
+.Home-Content {
+	width: 100%;
+	height: auto;
+}
+.Home-Content ol li {
+	height:auto;
+}
+.Home-Content ol{
+	height:auto;
+}
+
+.Home-Content h3{
+	padding: 1%;	
+	font-weight: bold;
+}
+
+.home-Content p span{
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 0;
+}
+
+
+
+.About-Us-Content, .Unity-Content, .Java-Content, .Scala-Content  {
+	display: none;
+}
+
+.About-Us-Content-Show, .Unity-Content-Show, .Java-Content-Show, .Scala-Content-Show {
+	margin: 0px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 50px;
+	border: 1px solid #CAC3C4;
+	background-image: url("Images/png/Mario.png");
+	background-repeat: no-repeat;
+	background-position: center right;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	display: block;
+	/*word-wrap: break-word;*/
+	word-break: keep-all;
+	/*overflow: auto;*/
+}
+
+.About-Us-Content-Show ol, .Unity-Content-Show ol, .Java-Content-Show ol , .Scala-Content-Show ol {
+	width: auto;
+	height: auto;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+
+.About-Us-Content-Show ol li , .Unity-Content-Show ol li, .Java-Content-Show ol li, .Scala-Content-Show ol li    {
+	width: auto;
+	height: auto;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+
+.Unity-Content-Show .Unity, .Java-Content-Show .Java, .Scala-Content-Show .Scala {
+	margin: 0px;
+	padding: 0px;
+}
+
+/**** CONTENT GAME *****/
+
+#pong-Game img{
+	float: left;
+	width: auto;
+	padding: 20px;
+}
+
+.Unity-Content-Show .Game-content, .Java-Content-Show .Game-content, .Scala-Content-Show .Scala-content {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+/**** FOOTER CSS ****/
+.footer-blank {
+	width: 100%;
+	padding:10px;
+	background-color: #EEE5E6;
+	color: #11091E;
+	font-size: 1em;
+	font-style: italic;
+	font-weight: bold;
+	visibility: hidden;
+	border: 1px solid red;
+}
+footer {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	padding:10px;
+	background-color: #EEE5E6;
+	color: #11091E;
+	font-size: 1em;
+	font-style: italic;
+	font-weight: bold;
+	text-shadow: -1px 0px 1vh gray, 0px -1px 1vh gray, 1px 0px 1vh gray, 0px 1px 1vh gray;
+}

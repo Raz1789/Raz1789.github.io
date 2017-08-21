@@ -1,0 +1,13 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	background-color: #11091E
+}
+
+#gameContainer {
+	width: 90vw;
+	height: 67.5vw;
+	position: absolute;
+	left: 5vw;
+	top: 1vw;
+}
