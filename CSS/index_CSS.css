@@ -93,7 +93,7 @@ a:hover, a:active {
 	height:auto;
 }
 
-.Home-Content h3{
+.Home-Content h3, .Home-Content h4{
 	padding: 1%;	
 	font-weight: bold;
 }
@@ -151,10 +151,27 @@ a:hover, a:active {
 
 /**** CONTENT GAME *****/
 
-#pong-Game img{
+#pong-Game img {
 	float: left;
 	width: auto;
 	padding: 20px;
+}
+
+#Coursera img {
+	width: 3%;
+	height: 3%;
+	border-radius: 50px;
+	display: inline;
+	margin: 0 0 0 1%;
+	position: relative;
+	top: 15px;
+}
+
+#Coursera p {
+	display: inline;
+	text-align: center;
+	/*padding: 1% 0 1% 0;*/
+	/*margin: 1%;*/
 }
 
 .Unity-Content-Show .Game-content, .Java-Content-Show .Game-content, .Scala-Content-Show .Scala-content {

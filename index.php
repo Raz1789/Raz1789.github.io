@@ -132,11 +132,47 @@
 					<div class="Scala-Content">
 						<h3 class="Scala">Scala Projects</br></br></h3>
 							<ol class="Game-content">
-								
+								<li>
+								<h4> Coursera Certificates </h4>
+								</li>
+								<li>
+									<div id="Coursera">
+										<ol>
+											<li>
+												<a href="https://www.coursera.org/account/accomplishments/certificate/D45JFBQQXTL9" target="_blank" title="Scala Certificate">
+													<img src="IMAGES\ICON\Coursera.png" alt="Coursera symbol">
+													<p>
+														Functional Programming Principles in Scala Certificate
+													</p>
+												</a>											
+											</li>
+											<li>
+												<a href="https://www.coursera.org/account/accomplishments/certificate/UMM3CVDHUAF9" target="_blank" title="Scala Certificate">
+													<img src="IMAGES\ICON\Coursera.png" alt="Coursera symbol">
+													<p>
+														Functional Program Design in Scala Certificate
+													</p>
+												</a>											
+											</li>
+											<li>
+												<a href="https://www.coursera.org/account/accomplishments/certificate/HHPJ4MUUQYUM" target="_blank" title="Scala Certificate">
+													<img src="IMAGES\ICON\Coursera.png" alt="Coursera symbol">
+													<p>
+														Parallel programming in Scala Certificate
+													</p>
+												</a>											
+											</li>
+										</ol>
+									</div>
+								</li>
 							</ol>
 					</div>
 				</li>
 		</div>
+				
+		<!-- Socials ---->
+		
+		
 		
 		<!-- FOOTER ADJUSTMENT --->
 		
