@@ -65,6 +65,7 @@ a:hover, a:active {
 	color: #11091E;
 	display: inline;
 	padding: 5px 5px;
+	cursor: pointer;
 }
 
 .About-Us-Select h2, .Unity-Select h2,.Java-Select h2, .Scala-Select h2, .C-Sh-Select h2  {
@@ -73,6 +74,7 @@ a:hover, a:active {
 	color: #11091E;
 	display: inline;
 	padding: 5px 5px;
+	cursor: pointer;
 }
 
 .Home-Title h2:hover {
@@ -178,7 +180,26 @@ a:hover, a:active {
 	margin: 0px;
 	padding: 0px;
 }
+/***** SOCIAL *****/
+.social {
+	margin: 1% 35%;
+	width: 100%;
+}
 
+.social a {
+	padding: 0 5% 0 0;
+}
+
+.social p {
+	display: inline;
+	font-size: 200%;
+}
+.social img{
+	display: inline;
+	width: 30px;
+	height: 30px;
+	border-radius: 50px;
+}
 
 
 /**** FOOTER CSS ****/

@@ -203,7 +203,7 @@
 										2. Working with dlls</br>
 										3. AI opponent</br>
 									</p>
-									<a href="https://github.com/Raz1789/TeddyBear-Game/tree/master/GameProject" target="_blank" title="source code">
+									<a href="https://github.com/Raz1789/BLOCKJUCK/tree/master/ProgrammingAssignment6" target="_blank" title="source code">
 										<em>(You can peek at the source code here)</em><br/><br/><br/>
 									</a>
 								</li>
@@ -230,8 +230,16 @@
 		</div>
 				
 		<!-- Socials ---->
-		
-		
+		<div class='social'>
+			<a href='mailto:navaneeth_3@hotmail.com?Subject=Like%20your%20%portfolio' title="Like my portfolio? Mail me!">
+				<img src="IMAGES\ICON\email.png" alt="email">
+				<p> Email</p>
+			</a>
+			<a href='https://github.com/Raz1789' title="Have a sneek peak at my codes!">
+				<img src="IMAGES\ICON\Github.png" alt="Github">
+				<p> Github</p>
+			</a>
+		</div>
 		
 		<!-- FOOTER ADJUSTMENT --->
 		
