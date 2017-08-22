@@ -46,6 +46,9 @@
 				<li class="Scala" onClick="showContent(this)">
 					<h2 class="Content-title">Scala Projects</h2>
 				</li>
+				<li class="C-Sh" onClick="showContent(this)">
+					<h2 class="Content-title">C# Projects</h2>
+				</li>				
 			</ol>
 		</div>
 		
@@ -82,15 +85,16 @@
 						<ol class="Game-content">
 							<li>
 								<div>
-									<h4> The Amazing Pong Game </h4>
+									<h4>1. The Amazing Pong Game </h4>
 									<div id="pong-Game">
 										<img src="IMAGES\Pong html\Pong_HTML.png" alt="pong logo">
 									</div>
 									<p>
 										</br>
-										This game is my first attempt at Unity Game development
-										and what better way to start than to program the first computer game ever.
-										</br><span>"THE AMAZING PONG GAME"</span>.(with single and Multiplayer Options)</br></br>
+										This game is my first attempt at Unity Game development</br>
+										and what better way to start than to program the first computer game ever. 
+										</br></br>Wanted to challenge myself to finish this in 2 days and I did.
+										</br></br><span>"THE AMAZING PONG GAME"</span>.(with single and Multiplayer Options)</br></br>
 									</p>
 									<a href="GAMES\UNITY\Pong HTML\Pong.html" target="_blank"> CLICK HERE TO TRY IT OUT!!!! </a>
 								</div>
@@ -103,7 +107,7 @@
 						<h3 class="Java">Java Projects</br></br></h3>
 							<ol class="Game-content">
 								<li>
-									<h4> TARGET GAME </h4>
+									<h4>1. TARGET GAME </h4>
 									<p>
 										</br>
 										This game is my first attempt at Java Game development
@@ -117,7 +121,7 @@
 									</a>
 								</li>
 								<li>
-									<h4> SNAKE GAME </h4>
+									<h4>2. SNAKE GAME </h4>
 									<p>
 										</br>
 										Classic snake game.</br> Wanted to make some thing small.
@@ -159,6 +163,61 @@
 													<img src="IMAGES\ICON\Coursera.png" alt="Coursera symbol">
 													<p>
 														Parallel programming in Scala Certificate
+													</p>
+												</a>											
+											</li>
+										</ol>
+									</div>
+								</li>
+							</ol>
+					</div>
+				</li>
+				<li>
+					<div class="C-Sh-Content">
+						<h3 class="C-Sh">C# Projects</br></br></h3>
+							<ol class="Game-content">
+								<li>
+									<h4>1. TEDDY BEAR GAME <h4>
+									<p>
+										This game is my first attempt at C# programming (Not considering Unity C# programming)
+										</br> You are a BURGER and the evil Big Teddy Bears are trying to attack and invade the BurgerVille.</br>
+										You need to us the W/A/S/D to move and Space to shoot French-Fries</br>
+										</br>
+										Features:</br>
+										1. Monogame Framework (Graphics)</br>
+										2. Audio Player</br>
+										3. Keyboard Event Listener</br>
+										4. AI opponent</br>
+									</p>
+									<a href="https://github.com/Raz1789/TeddyBear-Game/tree/master/GameProject" target="_blank" title="source code">
+										<em>(You can peek at the source code here)</em><br/><br/><br/>
+									</a>
+								</li>
+								<li>
+									<h4>2. BLOCKJUCK <h4>
+									<p>
+										This game is similar to Black Jack
+										</br>
+										Features:</br>
+										1. Monogame Framework (Graphics)</br>
+										2. Working with dlls</br>
+										3. AI opponent</br>
+									</p>
+									<a href="https://github.com/Raz1789/TeddyBear-Game/tree/master/GameProject" target="_blank" title="source code">
+										<em>(You can peek at the source code here)</em><br/><br/><br/>
+									</a>
+								</li>
+								<li>
+								<h4> Coursera Certificates </h4>
+								</li>
+								<li>
+									<div id="Coursera">
+										<ol>
+											<li>
+												<a href="https://www.coursera.org/account/accomplishments/certificate/3EPY9ZN69E2V" target="_blank" title="Scala Certificate">
+													<img src="IMAGES\ICON\Coursera.png" alt="Coursera symbol">
+													<p>
+														Beginning Game Programming with C# Certificate
 													</p>
 												</a>											
 											</li>

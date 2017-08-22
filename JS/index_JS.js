@@ -14,6 +14,9 @@ function showContent(obj){
 		if(document.getElementsByClassName("Scala-Content-Show").length >0){
 			document.getElementsByClassName("Scala-Content-Show")[0].className = "Scala-Content";
 		}
+		if(document.getElementsByClassName("C-Sh-Content-Show").length >0){
+			document.getElementsByClassName("C-Sh-Content-Show")[0].className = "C-Sh-Content";
+		}
 	
 		document.getElementsByClassName(select)[0].className = select.substring(0,select.length-7);
 	
