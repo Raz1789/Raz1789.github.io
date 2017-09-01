@@ -5,7 +5,7 @@
 		<meta charset = "UTF-8">
 		<meta name = "description" content = "Porfolio for Programming">
 		<meta name = "author" content = "Navaneeth Prathap">
-		<meta name = "keywords" content = "unity,java,scala,C#,programming,programmer,development,game,games,free,development,portfolio,navaneeth prathap">
+		<meta name = "keywords" content = "unity,java,scala,C#,programming,programmer,development,game,games,free,development,portfolio,navaneeth prathap, navaneeth prathap chandran nair, navaneeth nair">
 		<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
 		
 		<!----------- PAGE TITLE ---------->
@@ -137,6 +137,22 @@
 						<h3 class="Scala">Scala Projects</br></br></h3>
 							<ol class="Game-content">
 								<li>
+									<h4>1. SCALA SHOP <h4>
+									<p>
+										This is an image processing program which blurs the image using </br>
+										2 blurring methods using parallel processing. I also outputs the</br>
+										runtime of the program using different box radii.
+										Features:</br>
+										1. Parallel processing programming</br>
+										2. Box vertical blurring technique</br>
+										3. Box horizontal blurring technique</br>
+										4. Scalameter</br>
+									</p>
+									<a href="https://github.com/Raz1789/ScalaShop" target="_blank" title="source code">
+										<em>(You can peek at the source code here)</em><br/><br/><br/>
+									</a>
+								</li>
+								<li>
 								<h4> Coursera Certificates </h4>
 								</li>
 								<li>
@@ -231,7 +247,7 @@
 				
 		<!-- Socials ---->
 		<div class='social'>
-			<a href='mailto:navaneeth_3@hotmail.com?Subject=Like%20your%20%portfolio' title="Like my portfolio? Mail me!">
+			<a href='mailto:navaneeth_3@hotmail.com?Subject=Like%20your%20portfolio' title="Like my portfolio? Mail me!">
 				<img src="IMAGES\ICON\email.png" alt="email">
 				<p> Email</p>
 			</a>
