@@ -141,7 +141,7 @@
 									<p>
 										This is an image processing program which blurs the image using </br>
 										2 blurring methods using parallel processing. I also outputs the</br>
-										runtime of the program using different box radii.
+										runtime of the program using different box radii.</br></br>
 										Features:</br>
 										1. Parallel processing programming</br>
 										2. Box vertical blurring technique</br>
