@@ -27,7 +27,7 @@
 	<body>
 		<!-- HEADING --->
 		<div class="heading">
-			<h1> NAV'S PORTFOLIO </h1>
+			<h1> NAV PORTFOLIO </h1>
 		</div>
 		
 		<!-- TITLE BAR -->
@@ -60,13 +60,18 @@
 					<div class="About-Us-Content-Show" >
 						</br>
 						<p>
-							BY DAY: Instrumentation and Control Engineer</br></br>
-							BY NIGHT: Passionate Programmer trying out all types of programming language to find my real coding drive.</br></br>
-							Programming Languages under my belt:</br></br>
+							Hi,</br></br>
+							I'm Navaneeth Prathap Chandran Nair (Navi for short)</br></br>
+							I'm an Instrumentation and Control Engineer by profession</br>
+							However, I'm passionate about Programming and am trying out all types of programming language to find my real coding drive.</br>
+							Below is a list of Programming Languages under my belt:</br></br>
 						</p>
 						<ol>
-							<li>1. Scala</li>
-							<li>2. Java</li>
+							<li>
+								1. Java 
+								<span style="color: red;">(Oracle Certified Associate Java SE8 Programmer)</span>								
+							</li>
+							<li>2. Scala</li>
 							<li>3. C#</li>
 							<li>4. C++</li>
 							<li>5. C</li>
@@ -76,8 +81,10 @@
 							<li>9. PHP (Still learning)</li>
 							<li>10. SQL (Still learning)</li>
 						</ol>
-						<p> 
-					</div>
+						</br></br></br></br>
+						<a href="https://www.youracclaim.com/badges/510d32fb-ee84-4343-baa8-22730781fa7f/public_url" target="_blank">
+							<img src="IMAGES\ICON\OCA large.png" alt="OCA logo" style="width:10%;height:10%"> 
+						</a>					
 				</li>
 				<li>
 					<div class="Unity-Content">
@@ -127,9 +134,43 @@
 										Classic snake game.</br> Wanted to make some thing small.
 										</br></br>
 									</p>
-									<a href="GAMES\JAVA\snake.jar" title="download and play"> CLICK HERE AND DOWNLOAD TO TRY IT OUT!!!! </a>
+									<a href="GAMES\JAVA\snake.jar" title="download and play"> CLICK HERE AND DOWNLOAD TO TRY IT OUT!!!! </a><br/>
+									<a href="https://github.com/Raz1789/Snake-Game/tree/master/src/snake" target="_blank" title="source code">
+										<em>(You can peek at the source code here)</em><br/><br/><br/>
+									</a>
 								</li>
-							</ol>
+								<li>
+								<h4> Coursera Certificates </h4>
+								</li>
+								<li>
+									<div id="Coursera">
+										<ol>
+											<li>
+												<a href="https://www.coursera.org/account/accomplishments/certificate/XVFWHK6UXNWT" target="_blank" title="Java Certificate">
+													<img src="IMAGES\ICON\Coursera.png" alt="Coursera symbol">
+													<p>
+														Object Oriented Programming in Java <br/><br/><br/>
+													</p>
+												</a>											
+											</li>
+										</ol>
+									</div>
+								</li>
+								<li>
+								<h4> ORACLE Certificates </h4>
+								</li>
+								<li>
+									<div>
+										<ol>
+											<li>
+												<a href="https://www.youracclaim.com/badges/510d32fb-ee84-4343-baa8-22730781fa7f/public_url" target="_blank">
+													<img src="IMAGES\ICON\OCA large.png" alt="OCA logo" style="width:10%;height:10%;">  
+												</a>													
+											</li>
+										</ol>
+									</div>
+								</li>
+							</ol>	
 					</div>
 				</li>
 				<li>
@@ -230,7 +271,7 @@
 									<div id="Coursera">
 										<ol>
 											<li>
-												<a href="https://www.coursera.org/account/accomplishments/certificate/3EPY9ZN69E2V" target="_blank" title="Scala Certificate">
+												<a href="https://www.coursera.org/account/accomplishments/certificate/3EPY9ZN69E2V" target="_blank" title="C# Certificate">
 													<img src="IMAGES\ICON\Coursera.png" alt="Coursera symbol">
 													<p>
 														Beginning Game Programming with C# Certificate
