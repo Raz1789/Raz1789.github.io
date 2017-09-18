@@ -25,6 +25,30 @@
 		
 	</head>
 	<body>
+	
+		<!--------- PHP visitor counter ------>
+		<?php
+			//error_reporting(0);
+			if($connect = new mysqli("localhost","user","","id2642458_visitors")){
+				echo "Connected!";
+				$result = $connect->query("SELECT * FROM `visits` WHERE id = 1");
+				while($row = $result->fetch_assoc()){
+					echo $row['id']+" "+$row['count'];
+				}
+				
+				if($result = $connect->query("UPDATE visits SET count = count + 1 where id = 1")){
+					echo "Updated";
+				} else {
+					echo "Failed";
+				}
+				
+				$result = $connect->query("SELECT count FROM `visits` WHERE id = 1");
+				
+			} else {
+				echo "Failed";
+			}
+		?>
+	
 		<!-- HEADING --->
 		<div class="heading">
 			<h1> NAV PORTFOLIO </h1>
